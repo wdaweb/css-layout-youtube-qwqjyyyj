@@ -2,6 +2,14 @@ body {
   margin: 0;
 }
 
+.lxgw-wenkai-tc-regular {
+  font-family: "LXGW WenKai TC", cursive;
+}
+
+.m-plus-rounded-1c-regular {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
 li {
   list-style: none;
   line-height: 30px;
@@ -12,10 +20,86 @@ li {
   width: 100%;
   height: 75px;
   position: fixed;
-  background: lightseagreen;
+  background: white;
 }
 
-.searchbox {}
+#header table {
+  width: 98%;
+  margin: 13px;
+  font-size: 30px;
+}
+
+/* #header table td {
+  background: lightgoldenrodyellow;
+} */
+
+.mark {
+  width: 20px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.ytmark {
+  width: 230px;
+  padding: 0 10px;
+  text-align: left;
+}
+
+.ytmark sup {
+  font-size: 15px;
+  color: gray;
+}
+
+.searchbox {
+  width: 500px;
+  border: 1px solid lightgray;
+  border-radius: 30px 0 0 30px;
+  color: lightgray;
+  font-size: 20px;
+  margin: auto;
+}
+
+.search {
+  width: 60px;
+  border: 1px solid lightgray;
+  border-radius: 0 30px 30px 0;
+  background: rgb(223, 220, 220);
+  font-size: 20px;
+  text-align: center;
+}
+
+.search:hover {
+  background: lightgray;
+  cursor: pointer;
+}
+
+.mic {
+  width: 40px;
+  background: lightgray;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px;
+}
+
+.mic:hover {
+  background: rgb(183, 182, 182);
+  cursor: pointer;
+}
+
+.admin {
+  width: 100px;
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  font-size: 20px;
+  text-align: center;
+  color: blue;
+}
+
+.admin:hover {
+  cursor: pointer;
+  background: lightskyblue;
+}
 
 #leftsidebar {
   width: 15%;
@@ -24,6 +108,7 @@ li {
   left: 0;
   top: 75px;
   overflow-y: scroll;
+  overflow-x: hidden;
   /* background: lightblue; */
 }
 
@@ -31,6 +116,7 @@ li {
   margin: 15px 0 15px 0;
   padding: 0 0 6px 15px;
   border-bottom: 1px solid lightgray;
+  width: 100%;
 }
 
 .icon {
@@ -48,6 +134,7 @@ li {
   margin: 15px 0 15px 0;
   padding: 0 0 6px 15px;
   border-bottom: 1px solid lightgray;
+  width: 100%;
 }
 
 .login {
@@ -76,18 +163,24 @@ li {
 
 .explore {
   margin: 15px 0 15px 0;
-  padding: 0 0 6px 15px;
+  padding: 0 0 6px 12px;
   border-bottom: 1px solid lightgray;
+  width: 100%;
+}
+
+.exploretitle {
+  padding: 0 0 6px 14px;
 }
 
 .youtube {
   margin: 15px 0 15px 0;
   padding: 0 0 6px 15px;
   border-bottom: 1px solid lightgray;
+  width: 100%;
 }
 
 .middletitle {
-  text-indent: 22px;
+  text-indent: 25px;
   font-size: middle;
 }
 
@@ -100,27 +193,35 @@ li {
   margin: 15px 0 15px 0;
   padding: 0 0 5px 15px;
   border-bottom: 1px solid lightgray;
+  width: 100%;
 }
 
 .others {
-  margin: 15px 0 15px 0;
+  margin: 15px 0 0 0;
   padding: 0 0 15px 20px;
+  font-size: small;
+  color: gray;
+}
+
+#copyright {
+  margin: 0 0 15px 0;
+  padding: 0 0 10px 20px;
   font-size: small;
   color: gray;
 }
 
 #menubox {
   width: 85%;
-  height: 45px;
+  height: 75px;
   position: fixed;
   right: 0;
   top: 75px;
-  /* background: lightskyblue; */
+  background: white;
 }
 
 .menu {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 5px;
   overflow: hidden;
   margin-left: 13px;
 }
@@ -159,12 +260,12 @@ li {
   width: 85%;
   /* background: lightcyan; */
   margin-left: 15%;
-  padding-top: 120px;
+  padding-top: 140px;
 }
 
 #card {
   width: 17%;
-  background: lightgoldenrodyellow;
+  /* background: lightgoldenrodyellow; */
   display: inline-block;
   margin: 20px;
   padding: 5px;
