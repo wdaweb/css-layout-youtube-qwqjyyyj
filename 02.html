@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="./css/all.css">
+  <!-- my css -->
+  <link rel="stylesheet" href="./ytstyle.css">
+</head>
+
+<body>
+  <div id="header">
+    <table>
+      <tr>
+        <td class="mark">
+          <i class="fa-solid fa-bars"></i>
+        </td>
+        <td class="ytmark">
+          <i class="fa-brands fa-youtube" style="color: #ff0000;"></i>YOUTUBE<sup>TW</sup>
+        </td>
+        <td class="searchbox">搜尋</td>
+        <td class="search"><i class="fa-solid fa-magnifying-glass"></i></td>
+        <td class="admin">
+          <i class="fa-solid fa-ellipsis-vertical"></i>&nbsp;<i class="fa-regular fa-circle-user">&nbsp;</i>登入
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div id="leftsidebar">
+    <div>
+      <table class="index">
+        <tr>
+          <td class="icon"><i class="fa-solid fa-house"></i></td>
+          <td class="smalltitle">首頁</td>
+        </tr>
+        <tr>
+          <td class="icon"><i class="fa-regular fa-circle-play"></i></td>
+          <td class="smalltitle">Shorts</td>
+        </tr>
+        <tr>
+          <td class="icon"><i class="fa-regular fa-square-caret-right"></i></td>
+          <td class="smalltitle">訂閱內容</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <table class="personal">
+        <tr>
+          <td class="icon"><i class="fa-regular fa-circle-user"></i></td>
+          <td class="smalltitle">個人中心</td>
+        </tr>
+        <tr>
+          <td class="icon"><i class="fa-solid fa-clock-rotate-left"></i></td>
+          <td class="smalltitle">觀看紀錄</td>
+        </tr>
+      </table>
+    </div>
+    <div class="login">
+      <p>登入帳戶即可對影片表示喜歡、發布留言及訂閱頻道。</p>
+      <div class="loginbotton"><i class="fa-regular fa-circle-user">&nbsp;</i>登入</div>
+    </div>
+    <div>
+      <table class="explore">
+        <tr>
+          <td>探索</td>
+        </tr>
+        <tr>
+          <td class="icon"><i class="fa-solid fa-fire"></i></td>
+          <td class="smalltitle">發燒影片</td>
+        </tr>
+        <tr>
+          <td class="icon"><i class="fa-solid fa-music"></i></td>
+          <td class="smalltitle">音樂</td>
+        </tr>
+        <tr>
+          <td class="icon"><i class="fa-solid fa-clapperboard"></i></td>
+          <td class="smalltitle">電影</td>
+        </tr>
+        <tr>
+          <td class="icon"><i class="fa-solid fa-microphone-lines"></i></td>
+          <td class="smalltitle">直播</td>
+        </tr>
+        <tr>
+          <td class="icon"><i class="fa-solid fa-gamepad"></i></td>
+          <td class="smalltitle">遊戲</td>
+        </tr>
+        <tr>
+          <td class="icon"><i class="fa-regular fa-newspaper"></i></td>
+          <td class="smalltitle">新聞</td>
+        </tr>
+        <tr>
+          <td class="icon"><i class="fa-solid fa-trophy"></i></td>
+          <td class="smalltitle">體育</td>
+        </tr>
+        <tr>
+          <td class="icon"><i class="fa-regular fa-lightbulb"></i< /td>
+          <td class="smalltitle">課程</td>
+        </tr>
+        <tr>
+          <td class="icon"><i class="fa-solid fa-podcast"></i></td>
+          <td class="smalltitle">Podcast</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <p class="middletitle">更多Youtube功能</p>
+      <table class="youtube">
+        <tr>
+          <td class="icon"><i class="fa-brands fa-youtube" style="color: #ff0000;"></i></td>
+          <td class="smalltitle">Youtube Premium</td>
+        </tr>
+        <tr>
+          <td class="icon"><i class="fa-solid fa-circle-play" style="color: #ff0000;"></i></td>
+          <td class="smalltitle">Youtube Music</td>
+        </tr>
+        <tr>
+          <td class="icon"><i class="fa-brands fa-square-youtube" style="color: #ff0000;"></i></td>
+          <td class="smalltitle">Youtube Kids</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <table class="setting">
+        <tr>
+          <td class="icon"><i class="fa-solid fa-gear"></i></td>
+          <td class="smalltitle">設定</td>
+        </tr>
+        <tr>
+          <td class="icon"><i class="fa-regular fa-flag"></i></td>
+          <td class="smalltitle">檢舉紀錄</td>
+        </tr>
+        <tr>
+          <td class="icon"><i class="fa-regular fa-circle-question"></i></td>
+          <td class="smalltitle">說明</td>
+        </tr>
+        <tr>
+          <td class="icon"><i class="fa-solid fa-circle-exclamation"></i></td>
+          <td class="smalltitle">提供意見</td>
+        </tr>
+      </table>
+    </div>
+    <div class="others">
+      <p>簡介 媒體 著作權 與我們聯絡<br>創作者 廣告 開發人員</p>
+      <p>條款 隱私權 政策與安全性<br>YouTube運作方式 測試新功能</p>
+    </div>
+
+    <div id="copyright">&copy; 2024 Google LLC</div>
+  </div>
+  <div id="menubox">
+    <ul class="menu">
+      <li class="menu-item-active">全部</li>
+      <li class="menu-item">音樂</li>
+      <li class="menu-item">新聞</li>
+      <li class="menu-item">直播中</li>
+      <li class="menu-item">遊戲</li>
+      <li class="menu-item">棒球</li>
+      <li class="menu-item">動畫</li>
+      <li class="menu-item">最新上傳</li>
+    </ul>
+  </div>
+  <div id="rightcontent">
+    <div id="card">
+      <img class="img" src="./cardimage/1.jpg">
+      <table>
+        <tr>
+          <td><img class="circle" src="./cardimage/1_1.jpg"></td>
+          <td class="cardname">ビビデバ / 星街彗星(official)</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">Suisei Channel</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">觀看次數：1億次 ‧ 8個月前</td>
+        </tr>
+      </table>
+    </div>
+    <div id="card">
+      <img class="img" src="./cardimage/2.jpg">
+      <table>
+        <tr>
+          <td><img class="circle" src="./cardimage/2_1.jpg"></td>
+          <td class="cardname">造物主竟然是左撇子！？華裔諾貝爾獎得主震撼學界...</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">PanSci 泛科學</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">觀看次數：30萬次 ‧ 9天前</td>
+        </tr>
+      </table>
+    </div>
+    <div id="card">
+      <img class="img" src="./cardimage/3.jpg">
+      <table>
+        <tr>
+          <td><img class="circle" src="./cardimage/3_1.jpg"></td>
+          <td class="cardname">米津玄師 - さよーならまたいつか！ Kenshi Yonezu - ...</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">Kenshi Yonezu 米津玄師</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">觀看次數：6009萬次 ‧ 7個月前</td>
+        </tr>
+      </table>
+    </div>
+    <div id="card">
+      <img class="img" src="./cardimage/4.jpg">
+      <table>
+        <tr>
+          <td><img class="circle" src="./cardimage/4_1.jpg"></td>
+          <td class="cardname">擬劇論 - Eve MV</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">Eve</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">觀看次數：1.8億次 ‧ 7年前</td>
+        </tr>
+      </table>
+    </div>
+    <div id="card">
+      <img class="img" src="./cardimage/5.jpg">
+      <table>
+        <tr>
+          <td><img class="circle" src="./cardimage/5_1.jpg"></td>
+          <td class="cardname">Shinunoga E-Wa</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">Fujii Kaze</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">觀看次數：2億次 ‧ 4年前</td>
+        </tr>
+      </table>
+    </div>
+    <div id="card">
+      <img class="img" src="./cardimage/6.jpg">
+      <table>
+        <tr>
+          <td><img class="circle" src="./cardimage/6_1.jpg"></td>
+          <td class="cardname">【Ado】「悪魔の踊り方」を歌うAdoさん【切り...</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">Adoセンス</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">觀看次數：46萬次 ‧ 4個月前</td>
+        </tr>
+      </table>
+    </div>
+    <div id="card">
+      <img class="img" src="./cardimage/7.jpg">
+      <table>
+        <tr>
+          <td><img class="circle" src="./cardimage/7_1.jpg"></td>
+          <td class="cardname">YOASOBI「UNDEAD」 Official Music Video／...</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">Ayase / YOASOBI</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">觀看次數：1499萬次 ‧ 2個月前</td>
+        </tr>
+      </table>
+    </div>
+    <div id="card">
+      <img class="img" src="./cardimage/8.jpg">
+      <table>
+        <tr>
+          <td><img class="circle" src="./cardimage/8_1.jpg"></td>
+          <td class="cardname">なとり - フライデー・ナイト</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">なとり / natori</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">觀看次數：2937萬次 ‧ 1年前</td>
+        </tr>
+      </table>
+    </div>
+    <div id="card">
+      <img class="img" src="./cardimage/9.jpg">
+      <table>
+        <tr>
+          <td><img class="circle" src="./cardimage/9_1.jpg"></td>
+          <td class="cardname">【imase】NIGHT DANCER（MV）</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">imase</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">觀看次數：2.4億次 ‧ 2年前</td>
+        </tr>
+      </table>
+    </div>
+    <div id="card">
+      <img class="img" src="./cardimage/10.jpg">
+      <table>
+        <tr>
+          <td><img class="circle" src="./cardimage/10_1.jpg"></td>
+          <td class="cardname">YOASOBI「夜に駆ける」 Official Music Video</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">Ayase / YOASOBI</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">觀看次數：2.7億次 ‧ 5年前</td>
+        </tr>
+      </table>
+    </div>
+    <div id="card">
+      <img class="img" src="./cardimage/11.jpg">
+      <table>
+        <tr>
+          <td><img class="circle" src="./cardimage/11_1.jpg"></td>
+          <td class="cardname">青のすみか / キタニタツヤ - Where Our Blue Is / Tats...</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">キタニタツヤ / Tatsuya Kitani</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">觀看次數：8700萬次 ‧ 1年前</td>
+        </tr>
+      </table>
+    </div>
+    <div id="card">
+      <img class="img" src="./cardimage/12.jpg">
+      <table>
+        <tr>
+          <td><img class="circle" src="./cardimage/12_1.jpg"></td>
+          <td class="cardname">不可幸力 / Vaundy ：MUSIC VIDEO</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">Vaundy</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">觀看次數：1.1億次 ‧ 5年前</td>
+        </tr>
+      </table>
+    </div>
+    <div id="card">
+      <img class="img" src="./cardimage/13.jpg">
+      <table>
+        <tr>
+          <td><img class="circle" src="./cardimage/13_1.jpg"></td>
+          <td class="cardname">Bunny Girl</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">AKASAKI (18)</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">觀看次數：908萬次 ‧ 1個月前</td>
+        </tr>
+      </table>
+    </div>
+    <div id="card">
+      <img class="img" src="./cardimage/14.jpg">
+      <table>
+        <tr>
+          <td><img class="circle" src="./cardimage/14_1.jpg"></td>
+          <td class="cardname">Shinunoga E-Wa</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">Fujii Kaze</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">觀看次數：2億次 ‧ 4年前</td>
+        </tr>
+      </table>
+    </div>
+    <div id="card">
+      <img class="img" src="./cardimage/15.jpg">
+      <table>
+        <tr>
+          <td><img class="circle" src="./cardimage/15_1.jpg"></td>
+          <td class="cardname">Shinunoga E-Wa</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">Fujii Kaze</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">觀看次數：2億次 ‧ 4年前</td>
+        </tr>
+      </table>
+    </div>
+    <div id="card">
+      <img class="img" src="./cardimage/16.jpg">
+      <table>
+        <tr>
+          <td><img class="circle" src="./cardimage/16_1.jpg"></td>
+          <td class="cardname">Shinunoga E-Wa</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">Fujii Kaze</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="cardtext">觀看次數：2億次 ‧ 4年前</td>
+        </tr>
+      </table>
+    </div>
+
+    <div></div>
+  </div>
+  </div>
+</body>
+
+</html>
